@@ -3,21 +3,21 @@
 
 #modify values below
 #leave blank if not used
-maintainer="Name (nickname)" #ex: Lup Gabriel (gwolfu)
-oem="OEM" #ex: OnePlus
-device="device codename" #ex: guacamole
-devicename="name of device" #ex: OnePlus 7 Pro
-zip="crdroid zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<crdroid version>.zip
-buildtype="type" #choose from Testing/Alpha/Beta/Weekly/Monthly
-forum="" #https link (mandatory)
+maintainer="NoobDev6833 (NoobDev6833)" #ex: Lup Gabriel (gwolfu)
+oem="Xiaomi" #ex: OnePlus
+device="camellia" #ex: guacamole
+devicename="Redmi Note 10 5G" #ex: OnePlus 7 Pro
+zip="crDroidAndroid-12.1-20230409-camellia-v8.14.zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<crdroid version>.zip
+buildtype="Monthly" #choose from Testing/Alpha/Beta/Weekly/Monthly
+forum="https://forum.xda-developers.com/t/rom-12-1-unofficial-camellia-camellian-crdroid-v8-14-09-04-2023.4573661/" #https link (mandatory)
 gapps="" #https link (leave empty if unused)
 firmware="" #https link (leave empty if unused)
 modem="" #https link (leave empty if unused)
 bootloader="" #https link (leave empty if unused)
 recovery="" #https link (leave empty if unused)
 paypal="" #https link (leave empty if unused)
-telegram="" #https link (leave empty if unused)
-dt="" #https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
+telegram="https://t.me/crdroidcamellia" #https link (leave empty if unused)
+dt="https://github.com/Cristian40404/device_xiaomi_camellia" #https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
 commondt="" #https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common
 kernel="" #https://github.com/crdroidandroid/android_kernel_<oem>_<SOC>
 
@@ -49,7 +49,7 @@ echo '{
         "oem": "'$oem'",
         "device": "'$devicename'",
         "filename": "'$zip_only'",
-        "download": "https://sourceforge.net/projects/crdroid/files/'$device'/'$v_max'.x/'$zip_only'/download",
+        "download": "https://sourceforge.net/projects/crdroid-camellia/files/'12.1'/GMS/'$v_max'.x/'$zip_only'/download",
         "timestamp": '$timestamp',
         "md5": "'$md5'",
         "sha256": "'$sha256'",
